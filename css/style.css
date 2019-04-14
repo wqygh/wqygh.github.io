@@ -2,3 +2,7 @@ body{
     background-color: azure;
     
 }
+
+div.title{
+    margin: auto;
+}

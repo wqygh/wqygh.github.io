@@ -4,6 +4,7 @@ body{
 }
 
 div.title{
-    margin: auto;
-    font-family: “Gill Sans”, sans-serif;
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', sans-serif;
 }

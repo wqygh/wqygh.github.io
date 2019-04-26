@@ -3,12 +3,14 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div.title{
     width: 800px;
     margin-top: 200px;
-    margin-right: auto;
-    margin-left: auto;
-    
     font-size: 24px;
     text-align: center;
 }
@@ -18,16 +20,51 @@ div.caption{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
 
-div.btn{
+div.link{
     width: 1000px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 28px;
+    font-weight: bolder;
+}
 
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+    font-size: 150%;
+}
+a:hover span{
+    display: none;
+}
+a.res:hover::before{
+    content: "Kidding!"
+}
+a.cod:hover::before {
+    content: "Bug!"
+}
+a.fun:hover::before {
+    content: "Boring..."
+}
+a.pho:hover::before {
+    content: "Ugly..."
+}
+a.con:hover::before {
+    content: "...MIA..."
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    width: 20%;
 }

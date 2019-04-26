@@ -1,0 +1,28 @@
+body {
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    margin-right: auto;
+    margin-left: auto;
+}
+div.title {
+    width: 60%;
+    margin-top: 5%;    
+    font-size: 18px;
+    text-align: center;
+}
+
+div.logo {
+    width: 20%;
+    margin-top: 2%;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    width: 25%;
+}

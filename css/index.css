@@ -1,6 +1,6 @@
 body{
     background-color: azure;
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 
 div.title{
@@ -8,7 +8,7 @@ div.title{
     margin-top: 200px;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Courier New', Courier, monospace;
+    
     font-size: 24px;
     text-align: center;
 }
@@ -22,4 +22,12 @@ div.caption{
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+}
+
+div.btn{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
 }

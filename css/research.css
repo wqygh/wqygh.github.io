@@ -1,0 +1,14 @@
+body {
+    background-color: azure;
+
+}
+
+div.title {
+    width: 800px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+}

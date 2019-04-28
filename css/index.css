@@ -8,9 +8,15 @@ div{
     margin-right: auto;
 }
 
+div.logo{
+    width: 40%;
+    margin-top: 5%;
+    text-align: center;
+}
+
 div.title{
     width: 80%;
-    margin-top: 12%;
+    margin-top: 5%;
     font-size: 24px;
     text-align: center;
 }
@@ -28,6 +34,10 @@ div.link{
     margin-top: 5%;
     font-size: 28px;
     font-weight: bolder;
+}
+
+img{
+    width: 10%;
 }
 
 a{

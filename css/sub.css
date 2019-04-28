@@ -13,16 +13,34 @@ div.title {
     font-size: 18px;
     text-align: center;
 }
-
+div.caption {
+    width: 90%;
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+div.photo {
+    width: 90%;
+    margin-top: 2%;
+}
 div.logo {
     width: 20%;
     margin-top: 2%;
 }
 
-table{
+img {
+    width: 75%;
+}
+table {
     width: 100%;
 }
 
-th{
+th {
     width: 25%;
+}
+
+td {
+    width: 25%;
+    text-align: center;
 }

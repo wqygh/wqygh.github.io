@@ -7,9 +7,14 @@ div {
     margin-right: auto;
     margin-left: auto;
 }
+div.Qlogo {
+    width: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
 div.title {
     width: 60%;
-    margin-top: 5%;    
+    margin-top: 1%;    
     font-size: 18px;
     text-align: center;
 }
@@ -24,7 +29,7 @@ div.photo {
     width: 90%;
     margin-top: 2%;
 }
-div.logo {
+div.logos {
     width: 20%;
     margin-top: 2%;
 }

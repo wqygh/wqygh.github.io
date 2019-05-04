@@ -23,7 +23,16 @@ div.caption {
     margin-top: 3%;
     font-size: 18px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
+}
+div.nav {
+    width: 80%;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+div.res_content {
+    width: 80%;
 }
 div.photo {
     width: 90%;

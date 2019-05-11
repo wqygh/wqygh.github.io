@@ -1,0 +1,60 @@
+body {
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    margin-right: auto;
+    margin-left: auto;
+}
+div.Qlogo {
+    width: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+div.title {
+    width: 60%;
+    margin-top: 1%;    
+    font-size: 18px;
+    text-align: center;
+}
+div.caption {
+    width: 90%;
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+div.nav {
+    width: 80%;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+div.res_content {
+    width: 80%;
+}
+div.photo {
+    width: 90%;
+    margin-top: 2%;
+}
+div.logos {
+    width: 20%;
+    margin-top: 2%;
+}
+
+img {
+    width: 75%;
+}
+table {
+    width: 100%;
+}
+
+th {
+    width: 25%;
+}
+
+td {
+    width: 25%;
+    text-align: center;
+}

@@ -3,31 +3,73 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-div.title{
-    width: 800px;
-    margin-top: 200px;
-    margin-right: auto;
+div{
     margin-left: auto;
-    
+    margin-right: auto;
+}
+
+div.Qlogo{
+    width: 40%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+div.title{
+    width: 80%;
     font-size: 24px;
     text-align: center;
 }
 
 div.caption{
-    width: 1200px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
+    width: 85%;
+    margin-top: 3%;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
 
-div.btn{
-    width: 1000px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+div.link{
+    width: 70%;
+    margin-top: 5%;
+    font-size: 28px;
+    font-weight: bolder;
+}
 
+img{
+    width: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+    font-size: 150%;
+}
+a:hover span{
+    display: none;
+}
+a.res:hover::before{
+    content: "Kidding!"
+}
+a.cod:hover::before {
+    content: "Bug!"
+}
+a.fun:hover::before {
+    content: "Boring..."
+}
+a.pho:hover::before {
+    content: "Ugly..."
+}
+a.con:hover::before {
+    content: "...MIA..."
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    width: 20%;
 }

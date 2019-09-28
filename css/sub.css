@@ -43,9 +43,29 @@ div.logos {
     margin-top: 2%;
 }
 
+a.pub_item_link {
+    color: inherit;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold
+}
+a.pub_item_link:hover{
+    color: blue
+}
+a.button{
+    background-color: rgb(78, 128, 126);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 10px
+
+}
+
 img {
     width: 75%;
 }
+
 table {
     width: 100%;
 }

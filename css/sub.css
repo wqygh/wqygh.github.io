@@ -53,7 +53,6 @@ a.pub_item_link:hover{
     color: blue
 }
 a.button{
-    position: fixed;
     background-color: rgb(78, 128, 126);
     text-align: center;
     text-decoration: none;

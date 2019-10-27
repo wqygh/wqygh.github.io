@@ -26,6 +26,7 @@ div.caption {
     text-align: center;
 }
 div.nav {
+    position: fixed;
     width: 80%;
     font-size: 20px;
     text-decoration: none;

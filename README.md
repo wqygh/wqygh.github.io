@@ -1,2 +1,3 @@
-# new_site
-build a new site from scratch 
+# The Q site
+
+Qiyuan's personal website, built from scratch.

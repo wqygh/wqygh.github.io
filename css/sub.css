@@ -38,11 +38,14 @@ div.photo {
     width: 90%;
     margin-top: 2%;
 }
+div.video {
+    width: 80%;
+    margin-top: 2%;
+}
 div.logos {
     width: 20%;
     margin-top: 2%;
 }
-
 a.pub_item_link {
     color: inherit;
     text-decoration: none;

@@ -19,6 +19,7 @@ csv.then(function(data){
     fun_table.selectAll("#fun_list_row")
              .append("td")
              .attr("id", "fun_list_description")
+             .attr("class", "fun")
     
     var fun_description = d3.selectAll("#fun_list_description")
     fun_description.data(data)
@@ -31,7 +32,7 @@ csv.then(function(data){
              .attr("src", d => d.file)
              .attr("type", "video/mp4")
              .attr("height", "200")
-             .attr("autoplay", "")
+             .attr("controls", "")
              .attr("loop", "")
 
 })

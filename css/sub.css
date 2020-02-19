@@ -74,7 +74,7 @@ table {
 }
 
 th {
-    width: 25%;
+    width: 20%;
 }
 
 td {
@@ -85,4 +85,6 @@ td {
 td.fun {
     width: 20%;
     text-align: left;
+    font-weight: bold;
+    font-size: 20px;
 }

@@ -42,6 +42,13 @@ csv.then(function(data){
              .attr("src", d => d.file)
              .attr("class", "fun")
 
+    var fun_gif = d3.selectAll("#fun_list_file")
+    fun_gif.data(data)
+           .filter(d => d.file.includes(".gif"))
+           .append("img")
+           .attr("src", d => d.file)
+           .attr("class", "fun")
+
     var fun_link = d3.selectAll("#fun_list_description")
     fun_link.data(data)
             .filter(d => d.link.includes("http"))

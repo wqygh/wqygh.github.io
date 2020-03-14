@@ -35,4 +35,22 @@ csv.then(function(data){
              .attr("controls", "")
              .attr("loop", "")
 
+    var fun_image = d3.selectAll("#fun_list_file")
+    fun_image.data(data)
+             .filter(d => d.file.includes(".jpg"))
+             .append("img")
+             .attr("src", d => d.file)
+             .attr("class", "fun")
+
+    var fun_link = d3.selectAll("#fun_list_description")
+    fun_link.data(data)
+            .filter(d => d.link.includes("http"))
+            .append("a")
+            .attr("href", d => d.link)
+            .text("here ")
+            .attr("target", "_blank")
+            .attr("class", "fun_item_link")
+
+    fun_description.append("text").text(":)")
+
 })

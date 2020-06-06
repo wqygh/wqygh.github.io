@@ -9,21 +9,19 @@ div{
 }
 
 div.Qlogo{
-    width: 40%;
+    width: 60%;
     margin-top: 5%;
     text-align: center;
 }
 
 div.title{
     width: 80%;
-    font-size: 24px;
     text-align: center;
 }
 
 div.caption{
     width: 85%;
-    margin-top: 3%;
-    font-size: 18px;
+    margin-top: 5%;
     font-weight: bold;
     text-align: center;
 }
@@ -31,7 +29,6 @@ div.caption{
 div.link{
     width: 70%;
     margin-top: 5%;
-    font-size: 28px;
     font-weight: bolder;
 }
 

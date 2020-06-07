@@ -24,9 +24,11 @@ div.title h1 {
 div.caption {
     width: 90%;
     margin-top: 3%;
-    font-size: 25px;
     font-weight: bold;
     text-align: center;
+}
+div.caption p {
+    font-size: 2.5vw;
 }
 div.nav {
     width: 80%;
@@ -47,7 +49,7 @@ div.video {
 }
 div.logos {
     width: 50%;
-    margin-top: 2%;
+    margin-top: 7%;
 }
 a.pub_item_link {
     color: inherit;

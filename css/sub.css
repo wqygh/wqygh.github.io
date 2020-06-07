@@ -18,6 +18,9 @@ div.title {
     font-size: 22px;
     text-align: center;
 }
+div.title h1 {
+    font-size: 5vw;
+}
 div.caption {
     width: 90%;
     margin-top: 3%;
@@ -78,6 +81,10 @@ img {
 img.fun {
     height: 200px;
     width: auto;
+}
+img.logo {
+    width: 45%;
+    height: auto;
 }
 
 table {

@@ -18,6 +18,9 @@ div.title{
     width: 80%;
     text-align: center;
 }
+div.title h1{
+    font-size: 5vw;
+}
 
 div.caption{
     width: 85%;

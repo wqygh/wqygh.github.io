@@ -24,9 +24,14 @@ div.title h1{
 
 div.caption{
     width: 85%;
+    height: 10vh;
     margin-top: 5%;
     font-weight: bold;
     text-align: center;
+}
+
+.caption p{
+    font-size: 2vw;
 }
 
 div.link{
@@ -72,4 +77,8 @@ table{
 
 th{
     width: 20%;
+}
+
+tr{
+    font-size: 3vw;
 }

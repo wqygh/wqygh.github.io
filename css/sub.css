@@ -81,8 +81,9 @@ img {
     width: 80%;
 }
 img.fun {
-    height: 200px;
+    height: 15vh;
     width: auto;
+    border-radius: 15%;
 }
 img.logo {
     width: 45%;

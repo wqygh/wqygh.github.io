@@ -31,7 +31,7 @@ csv.then(function(data){
              .append("video")
              .attr("src", d => d.file)
              .attr("type", "video/mp4")
-             .attr("height", "200")
+             .attr("height", "60%")
              .attr("controls", "")
              .attr("loop", "")
 

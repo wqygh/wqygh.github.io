@@ -3,21 +3,19 @@ var csv = d3.csv("../asset/data/fun_list.csv")
 csv.then(function(data){
 
     console.log(data)
-    var fun_list = d3.select('#fun_list')
-    fun_list.append("table")
-            .attr("id", "fun_list_table")
-    
-    var fun_table = d3.select("#fun_list_table")
+
+    var fun_table = d3.select("#fun_list")
     fun_table.selectAll("#fun_list_item")
              .data(data)
              .enter()
-             .append("tr")
+             .append("div")
              .attr("id", "fun_list_row")
-             .append("td")
+             .append("p")
              .attr("id", "fun_list_file")
+             .attr("class", "fun")
              .exit()
     fun_table.selectAll("#fun_list_row")
-             .append("td")
+             .append("p")
              .attr("id", "fun_list_description")
              .attr("class", "fun")
     
@@ -31,7 +29,7 @@ csv.then(function(data){
              .append("video")
              .attr("src", d => d.file)
              .attr("type", "video/mp4")
-             .attr("height", "180px")
+             .attr("height", "250px")
              .attr("controls", "")
              .attr("loop", "")
 
@@ -61,3 +59,25 @@ csv.then(function(data){
     fun_description.append("text").text(":)")
 
 })
+
+var top_button = d3.select("body")
+                   .append("button")
+                   .attr("onclick", "top_func()")
+                   .attr("id", "top")
+                   .text("Top")
+
+var button = document.getElementById("top")
+window.onscroll = function() {scroll_func()}
+
+function scroll_func() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                button.style.display = "block";
+        } else {
+                button.style.display = "none";
+        } 
+}
+
+function top_func() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera   
+}

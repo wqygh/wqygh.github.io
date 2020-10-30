@@ -39,6 +39,16 @@ div.nav {
 div.res_content {
     width: 80%;
 }
+div.code_sub {
+    width: 80%;
+    text-align: center;
+}
+div.code_sub h1 {
+    font-size: 3vw;
+}
+div.code_sub h2 {
+    font-size: 2vw;
+}
 div.photo {
     width: 90%;
     margin-top: 2%;

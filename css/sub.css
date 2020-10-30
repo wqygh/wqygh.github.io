@@ -130,6 +130,7 @@ td.fun {
     padding: 1%;
     border-radius: 10%;
     font-size: 2.5vw;
+    font-family: 'Courier New', Courier, monospace;
 }
 #top:hover {
     background-color: #43a2ca;

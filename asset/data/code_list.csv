@@ -1,5 +1,6 @@
 title,sub,description,link
 "this website","fun_sub","I build this website from scratch, and you can see the code ","https://github.com/wqygh/wqygh.github.io"
+"Monte Carlo","learn_sub","Using Monte Carlo simulation in business case, see the first R dashboard ","https://wqygh.shinyapps.io/Palisade_MonteCarlo_WorkForce/"
 "WE Data","learn_sub","A visualization analytic project on flight delay from new perspective, see it ","https://dudum1216.github.io/WEdata/"
 "CorkBoardIt","learn_sub","A super simple full stack website like Pinterest, see it ","http://corkboardit.net"
 "Nothing","work_sub","No code for work yet?!","-"
